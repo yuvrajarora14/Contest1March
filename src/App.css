@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    display: flex;
+    position:absolute;
+    border: 10px solid cyan;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#error{
+    color: red;
+}
+
+label{
+    font-size: large;
+    font-weight: bold;
+}
+
+input{
+    width: 300px;
+    padding: 2px;
+    margin: 2px;
+    border-radius: 5px;
+}
+
+ button{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    justify-content: center;
+    position: absolute;
+    color: white;
+    background-color:rgb(3, 105, 230);
+    border: none;
+    left: 47%;
+    width: 60px;
+    height: 30px;
+    border-radius: 7px;
+    cursor: pointer;
+ }
